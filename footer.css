@@ -131,6 +131,9 @@ footer .footer-right .store .text .large-text {
 footer .footer-bottom{
     display:flex;
 }
+footer .footer-bottom .icon::after {
+    content: attr(data-tooltip);
+}
 footer .footer-bottom img{
     margin:30px 7px 0;
     height: 50px;
