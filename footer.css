@@ -11,17 +11,18 @@ footer{
     padding: 50px;
     background-color: #421281;  
 }
-.ct{
+footer .line{
+    height: 1px;
+    background-color: #b9c300;
+    width: 100%;
+    margin-bottom:30px;
+}
+footer .ct{
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
-.line{
-    height: 1px;
-    background-color: #4d4b4b;
-    width: 100%;
-    margin-bottom:30px;
-}
+
 footer .footer-left{
     max-width: 50%;
     align-items: center;
